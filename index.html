@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark" scroll-behavior: smooth;>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio_E.PLorente</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link href="./css/style.css" rel="stylesheet"> <!-- Link to the external CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-w3yLZb7V2A4E4QylP/A1H19yyfuMI6dJ0v4Keo8oC0J93giT1qG68Yqz3HnN3nNH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-hYhxZT3R9OQn5Ih8XJZZy1+DC3D5NZ9zLgIwbsAFB9JXkRaYVhU52HkLdtNcHt8y" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body class="gradient-background">
+  <div class="empty-container d-flex"></div>
+  <!--Barra de navegación-->
+  <nav class="navbar navbar-expand-lg navbar-light mb-4"></nav>
+
+
+  <!--Barra de navegación2-->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top mb-4">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutMe">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  
+<!--Intro-->
+
+<div class="empty-container d-flex" id="aboutMe"></div>
+<div class="flex-container1 d-flex"> 
+  <div class="flex p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+    <div class="row d-flex align-items-center">
+      <!-- Text on the left -->
+      <div class="col-lg-6 col-md-12 text-center text-lg-start">
+        <h1 class="display-4 fst-italic">Enrique Poveda Lorente</h1>
+        <p class="lead my-3">I am passionate about the development of applications and geospatial data analytics & data science. I have pursued postgraduate studies in this field. In addition, I have completed several courses, including QGIS Developer at TYC GIS and HTML/CSS/JS on Udemy.</p>
+        <ul class="nav justify-content-center justify-content-lg-start list-unstyled d-flex">
+          <li class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="enrique.povedalorente@gmail.com">
+            <a class="text-body-secondary" href="#" onclick="copyToClipboard('enrique.povedalorente@gmail.com'); return false;">
+              <i class="bi bi-envelope"></i>
+            </a>
+          </li>
+          <li class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="https://www.linkedin.com/in/enrique-poveda-lorente-07b63b291/">
+            <a class="text-body-secondary" href="#" onclick="copyToClipboard('https://www.linkedin.com/in/enrique-poveda-lorente-07b63b291/'); return false;">
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </li>
+          <li class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="+34 601283419">
+            <a class="text-body-secondary" href="#" onclick="copyToClipboard('+34 601283419'); return false;">
+              <i class="bi bi-telephone"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Image on the right -->
+      <div class="col-lg-6 col-md-12 text-center">
+        <img class="img-fluid" src="./images/CVEnriquePovedaLorente16.09.jpg" alt="First slide" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  <!-- Carrusel -->
+<div class="d-flex justify-content-center align-items-center vh-100">
+  <div class="col-12 col-lg-8 col-md-10 text-center">
+    <!-- Title container -->
+    <div class="mb-4 p-5">
+      <h2>Random Project Images</h2>
+    </div>
+    <div class="empty-container d-flex py-3" ></div>  
+    <!-- Carousel container -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="carousel-img-wrapper">
+                <img class="d-block w-100" src="./images/UnsupervisedAlgortimLidar.png" alt="First slide">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="carousel-img-wrapper">
+                <img class="d-block w-100" src="./images/CVPlateRecognition.png" alt="Second slide">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="carousel-img-wrapper">
+                <img class="d-block w-100" src="./images/satelliteImage.jpg" alt="Third slide">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="carousel-img-wrapper">
+                <img class="d-block w-100" src="./images/ComputerVisionAPI_visualizationmethod.png" alt="Fourth slide">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="carousel-img-wrapper">
+                <img class="d-block w-100" src="./images/ComputerVisionAPI_output.png" alt="Fifth slide">
+            </div>
+        </div>
+    </div>
+    
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+   <!-- Album de proyectos -->
+<div class="album py-5 bg-body-tertiary gradient-background mb-4 p-4 text-center" id="projects">
+  <h2>Projects on Github</h2>
+</div>
+<div class="empty-container d-flex"></div>
+
+<div class="container">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="./images/CVPlateRecognition.png" class="card-img-top" alt="Project image" style="height: 225px; object-fit: cover;">
+        <div class="card-body">
+          <p class="card-text" style="margin-bottom: 10px;">Plateau Recognition Using ROI in Computer Vision</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="https://github.com/EnriquePLorente/LicensePlateRecognition" class="btn btn-sm btn-success" target="_blank">Access</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="./images/CVRecognitionRealTime.png" class="card-img-top" alt="Project image" style="height: 225px; object-fit: cover;">
+        <div class="card-body">
+          <p class="card-text" style="margin-bottom: 10px;">Real-Time Object Detection Using Computer Vision</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="https://github.com/EnriquePLorente/EnriquePLorente-ComputerVision_RealTime" class="btn btn-sm btn-success" target="_blank">Access</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="./images/UnsupervisedAlgortimLidar.png" class="card-img-top" alt="Project image" style="height: 225px; object-fit: cover;">
+        <div class="card-body">
+          <p class="card-text" style="margin-bottom: 10px;">Unsupervised Classification of Land Use Using Lidar</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="https://github.com/EnriquePLorente/Unsupervised-Classification-of-Land-Use-Using-Lidar/blob/main/README.md" class="btn btn-sm btn-success" target="_blank">Access</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="./images/ComputerVisionAPI.png" class="card-img-top" alt="Project image" style="height: 225px; object-fit: cover;">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#55595c"></rect>
+        </svg>
+        <div class="card-body">
+          <p class="card-text" style="margin-bottom: 5px;">Geospatial Computer Vision Model API</p>
+          <p class="card-text" style="font-size: 0.8rem; margin-bottom: 10px;">(Finishing the project, it will be uploaded soon)</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-secondary">Access</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="col">
+      <div class="card shadow-sm">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></svg>
+        <div class="card-body">
+          <p class="card-text" style="margin-bottom: 10px;">Project 5</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-secondary">Access</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col">
+      <div class="card shadow-sm">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></svg>
+        <div class="card-body">
+          <p class="card-text" style="margin-bottom: 10px;">Project 6</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-secondary">Access</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="empty-container d-flex"></div>
+
+
+<div class="d-flex"></div>
+
+<div class="d-flex p-4 justify-content-center align-items-center" id="experience">
+  <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary shadow-sm w-100">
+    <div class="d-flex justify-content-center align-items-start flex-column">
+      <!-- Title and introduction -->
+      <div class="col-lg-12 px-0 text-center mb-4">
+        <h1 class="display-4 fst-italic">Experience & Education</h1>
+      </div>
+
+      <!-- Experience section -->
+      <div class="col-lg-10 mx-auto">
+        <h4 class="font-weight-bold">Geospatial Data Scientist | Orygen Earth S.L. (05.23 - 08.24)</h4>
+        <ul class="mb-4">
+          <li>Designed products based on geospatial data using Computer Vision and NLP techniques such as Retrieval-Augmented Generation (RAG).</li>
+          <li>Developed geospatial data models through semantic segmentation techniques.</li>
+          <li>Proficient in geospatial databases (PostGIS, SQL).</li>
+          <li>Manual image labeling using CVAT and custom binarization scripts.</li>
+          <li>Developed unsupervised algorithms for Lidar technology and supervised ML algorithms for multispectral images.</li>
+          <li>Developed an API for Computer Vision models using FastAPI.</li>
+          <li>Tested Deep Learning architectures (YOLO, U-NET) using Keras and Ultralytics.</li>
+          <li>Utilized Google Earth Engine for geospatial analysis and performed web scraping using Beautiful Soup.</li>
+        </ul>
+
+        <h4 class="font-weight-bold">Rural Development Technician | City Council of San Esteban del Valle (06.22 - 08.22)</h4>
+        <ul class="mb-4">
+          <li>Developed a fire protection project for properties in the urban-forest interface.</li>
+          <li>Submitted grant applications at the regional level to the Junta of Castilla y León.</li>
+          <li>Prepared technical reports.</li>
+          <li>Supervised municipal projects.</li>
+          <li>Participated in wildfire suppression efforts.</li>
+        </ul>
+
+        <h4 class="font-weight-bold">Deputy Quality Management | Intern at UPM (04.22 - 06.22)</h4>
+        <ul class="mb-4">
+          <li>Managed and developed databases for the university.</li>
+          <li>Created program handbooks for ETSIMFMN degree courses.</li>
+        </ul>
+
+        <h4 class="font-weight-bold">Forest Management | ERASMUS Slovenian Forest Service, Slovenia (03.19 - 06.19)</h4>
+        <ul class="mb-4">
+          <li>Collected measurements for the government database.</li>
+        </ul>
+      </div>
+
+      <!-- Education section -->
+      <div class="col-lg-10 mx-auto mt-4">
+        <h2 class="font-weight-bold">Education</h2>
+
+        <h4 class="font-weight-bold">Polytechnic University of Madrid (09.24 - 06.25)</h4>
+        <p class="mb-3">Master in Geomatics Applied to Engineering and Architecture</p>
+
+        <h4 class="font-weight-bold">MIOTI Tech & Business School (10.23 - 06.24)</h4>
+        <p class="mb-3">Master in Data Science & Analytics</p>
+
+        <h4 class="font-weight-bold">Polytechnic University of Madrid (09.19 - 12.23)</h4>
+        <p class="mb-4">Bachelor's Degree in Forestry Engineering</p>
+
+        <h4 class="font-weight-bold">I.E.S. EL ESCORIAL (09.17 - 07.19)</h4>
+        <p class="mb-4">Professional training, higher degree in forestry management</p>
+      </div>
+
+      <!-- Other studies section -->
+      <div class="col-lg-10 mx-auto mt-4">
+        <h2 class="font-weight-bold">Other Studies</h2>
+        <ul class="mb-4">
+          <li><strong>QGIS Plugin Developer</strong> | TYCGIS</li>
+          <li><strong>The Complete 2024 Web Development Bootcamp</strong> | Udemy</li>
+          <li><strong>Development of Android apps with Jetpack Compose and Kotlin</strong> | Udemy</li>
+          <li><strong>Intermediate to Advanced Python with 10 OOP Projects</strong> | Udemy</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+    <!--Pie de página con mensaje-->
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" id="contact">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© Do it with ♥ by Enrique</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-start list-unstyled d-flex">
+        <li class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="enrique.povedalorente@gmail.com">
+          <a class="text-body-secondary" href="#" onclick="copyToClipboard('enrique.povedalorente@gmail.com'); return false;">
+            <i class="bi bi-envelope"></i>
+          </a>
+        </li>
+        <li class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="https://www.linkedin.com/in/enrique-poveda-lorente-07b63b291/">
+          <a class="text-body-secondary" href="#" onclick="copyToClipboard('https://www.linkedin.com/in/enrique-poveda-lorente-07b63b291/'); return false;">
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="+34 601283419">
+          <a class="text-body-secondary" href="#" onclick="copyToClipboard('+34 601283419'); return false;">
+            <i class="bi bi-telephone"></i>
+          </a>
+        </li>
+      </ul>
+      
+      
+      
+    </footer>
+  
+  <script>
+    var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'))
+    dropdownElementList.map(function (dropdownToggleEl) {
+      return new bootstrap.Dropdown(dropdownToggleEl)
+    });
+  </script>
+  <script>
+    function copyEmail() {
+      const email = "enrique.povedalorente@gmail.com";
+      navigator.clipboard.writeText(email).then(() => {
+        alert("Email copied to clipboard!");
+      }).catch(err => {
+        console.error("Failed to copy: ", err);
+      });
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
+
+  <script>
+    // Function to copy text to clipboard
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        alert('Copied to clipboard: ' + text); // Optional: Alert for feedback
+      }).catch(err => {
+        console.error('Could not copy text: ', err);
+      });
+    }
+  
+    // Initialize Bootstrap tooltips
+    document.addEventListener('DOMContentLoaded', function () {
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    });
+  </script>
+  
+
+</body>
+
+</html>

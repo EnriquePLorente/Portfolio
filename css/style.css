@@ -1,0 +1,104 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    position: relative;
+  }
+
+
+.flex-container1 {
+display: flex;
+align-items: center;
+justify-content: right;
+height: 7%;
+    
+}
+
+.empty-container {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 11%;
+  
+}
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .cover-container {
+    z-index: 2; /* Ensure the content is above the gradient */
+    position: relative; /* Contain absolute positioning */
+  }
+
+  .cover-container > * {
+    position: relative; /* Position elements inside */
+    z-index: 3; /* Ensure they appear above the gradient */
+  }
+
+  .carousel-item img {
+    max-height: 300px; /* Set your desired maximum height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    width: 100%; /* Ensure the image takes the full width */
+}
+
+.small-and {
+  font-size: 0.7em; /* Adjust the size as needed (0.7em makes it smaller) */
+  display: block;
+  text-align: center; /* Center the & symbol */
+}
+
+
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.cv-section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
