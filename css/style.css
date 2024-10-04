@@ -44,9 +44,16 @@ height: 7%;
   }
 
   .carousel-item img {
-    max-height: 300px; /* Set your desired maximum height */
+    max-height: 400px; /* Set your desired maximum height */
     object-fit: cover; /* Ensure the image covers the area without distortion */
     width: 100%; /* Ensure the image takes the full width */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Change to the desired color */
+  width: 50px;
+  height: 50px;
 }
 
 .small-and {
@@ -102,3 +109,5 @@ ul {
 li {
   margin-bottom: 10px;
 }
+
+.img_profile{}
